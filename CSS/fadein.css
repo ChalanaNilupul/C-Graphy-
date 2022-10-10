@@ -1,0 +1,15 @@
+body
+{
+    animation: transition 0.7s;
+}
+@keyframes transition
+{
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,150 @@
+
+#modal
+{
+	width: 40%;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left:50% ;
+	max-width: 500px;
+	border: none;
+	height: 520px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 0;
+	
+	
+	
+}
+#modal::backdrop
+{
+	background: rgb(0, 0, 0);
+	opacity: 0.3;
+}
+
+#close
+{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 450px;
+	margin-bottom: 0;
+	border-radius: 25px;
+	background-color: rgb(209, 51, 51);
+	border: 0;
+	color: white;
+	
+}
+#close:hover
+{
+	background-color: rgb(255, 0, 0);
+}
+.Rcontent {
+
+    width: 400px;
+    height: 400px;
+    width: 100%;
+    margin-top: 40px;
+
+
+
+    text-align: center;
+    align-items: center;
+
+
+    
+    
+}
+form
+{
+    background-color: bisque;
+    border-top-left-radius: 150% 150%;
+    padding-bottom: 3px;
+    
+}
+
+
+
+
+input[type=text],
+[type=email],
+[type=password] {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    outline: none;
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 20px;
+    float: right;
+    background-color: #40BC9F;
+    border: none;
+    margin-right: 100px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #00ffc3;
+}
+
+
+
+/*  ------------------------------------------- Sign in modal-----------------------------------   -*/
+
+
+#modalsign
+{
+	width: 40%;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left:50% ;
+	max-width: 500px;
+	border: none;
+	height: 520px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 0;
+	
+	
+	
+}
+#modalsign::backdrop
+{
+	background: rgb(0, 0, 0);
+	opacity: 0.3;
+}
+
+#closesign
+{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 450px;
+	margin-bottom: 0;
+	border-radius: 25px;
+	background-color: rgb(209, 51, 51);
+	border: 0;
+	color: white;
+	
+}
+#closesign:hover
+{
+	background-color: rgb(255, 0, 0);
+}
+
+.btnSubmit
+{
+    background-color: #37c5a4;
+	border: 0;
+	padding: 10px;
+	width: 80px;
+	border-radius: 25px;
+}
+.btnSubmit:hover
+{
+	background-color: #67d9be;
+}
+

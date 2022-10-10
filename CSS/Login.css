@@ -1,0 +1,143 @@
+body
+{
+	
+    color: aliceblue;
+	
+    
+}
+
+*
+{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.back
+{
+    width: 100%;
+	height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	justify-content: center;
+    flex: wrap;
+    display:flex ;
+}
+.alert
+{
+	padding: 0 0 10px 0;
+	color: red;
+}
+h1
+{
+    padding: 50px 0px 20px 0px;
+  
+    font-size: 40px;
+}
+.sign
+{
+    
+    float: left;
+    height: 430px;
+    width: 400px;
+	position: relative;
+	top: 50%;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform: translateY(-50%);
+	text-align: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+   
+    border: 2px solid #ffffff;
+	
+	
+}
+.sign form{
+    padding-left: 40px;
+}
+.error
+{
+    height: 30px;
+    background-color: #fa6868;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.sign .error p
+{
+    margin-right: 30px;
+    
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table td{
+    
+    float: left;
+    
+}
+
+input
+{
+    outline: none;
+    border: none;
+}
+input[type=checkbox]
+{
+    float: left;
+ 
+    
+}
+input[type=text],[type=password],[type=email]
+{
+    width: 300px;
+    height: 30px;
+    border-bottom: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 8px;
+    margin-top: 10px;
+  
+    color: white;
+    font-size: 15px;
+   
+}
+::placeholder
+{
+    color: rgba(255, 255, 255, 0.644);
+}
+#btnSubmit
+{
+	border: none;
+	width: 100px;
+	padding: 12px 10px;
+	text-align: center;
+	margin: 10px 0px 0px 200px;
+	border-radius: 25px;
+	font-weight: bold;
+	
+	font-size: 14px;
+	background: #323232;
+	color: #fff;
+	cursor:pointer;
+	position: relative;
+	overflow: hidden;
+    transition: 0.3s;
+}
+#btnSubmit:hover
+{
+    
+    background: #ffffff;
+    color: black;
+}
+h5
+{
+    padding: 10px;
+}
+h5 a
+{
+    color: #d9d9d9;
+}
+

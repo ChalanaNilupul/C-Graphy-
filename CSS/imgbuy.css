@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+}
+
+.back {
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex: wrap;
+    display: flex;
+    padding: 40px;
+    width: auto;
+    
+}
+
+.back .inner {
+    margin-left: 10px;
+    padding: 0 10px 10px 10px;
+    width: 400px;
+}
+
+.back .inner p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.back .inner button {
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 8px;
+    float: right;
+    animation: 0.5s;
+    background-color: transparent;
+
+
+}
+.back .inner button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.back .inner button:hover {}
+
+.backimg {
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100px;
+    color: white;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 40px;
+    animation: .5s;
+    cursor: pointer;
+  
+}
+
+.backimg a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+
+

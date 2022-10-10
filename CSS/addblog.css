@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+}
+.back
+{
+   
+    justify-content: center;
+    flex: wrap;
+    display:flex ;
+}
+.addblog
+{
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 130px;
+    background-color: blueviolet;
+    height: 400px;
+    width: 500px;
+    padding: 30px;
+}
+
+.addblog input[type=text],textarea
+{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+input[type=file]
+{
+    padding-bottom: 10px;
+    margin-bottom: 10px; 
+    outline: none;
+}
+.addblog button
+{
+    float: right;
+    padding: 5px;
+   
+}
+

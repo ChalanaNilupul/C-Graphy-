@@ -1,0 +1,112 @@
+
+.title{
+    padding-top: 60px;
+    color: white;
+}
+.content
+{
+    
+    padding-top: 20px;
+}
+
+.profile_head {
+
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pro_pic {
+   
+   
+   
+    
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  
+  
+  }
+  .pro_pic .ico
+  {
+     
+      
+      height: 300px;
+  }
+  .pro_pic .ico button
+  {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .pro_pic .ico i{
+   opacity: 0.5;
+   transition: 0.5s;
+   margin-bottom: 50px;
+  }
+  .pro_pic .ico:hover i{
+      opacity: 1;
+      transform: matrix(1.3);
+  }
+
+table{
+    color: white;
+    padding-bottom: 30px;
+}
+table .pencil:hover{
+    transform: scale(1.3);
+}
+table tr td{
+  padding: 5px;
+}
+table input{
+    outline: none;
+    height: 30px;
+    width: 200px;
+}
+
+.info {
+    justify-content: center;
+    display: flex;
+    
+
+}
+.info .inner .save
+{
+    width: 60px;
+    height: 30px;
+    background-color: #ffffff;
+     border: 1px sold white;
+    border: 0;
+    color: black;
+}
+.info .inner .save:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+.info .inner table{
+    width: 400px;
+    
+}
+
+.info .inner table a{
+    text-decoration: none;
+    color: rgb(45, 59, 255);
+}
+.info a .webbtn
+{
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    border-radius:0;
+    border: 1px sold white;
+    color: white;
+    transition: .5s;
+}
+.info a .webbtn:hover
+{
+  background-color: white;
+  color: black;
+	
+}

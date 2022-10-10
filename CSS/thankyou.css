@@ -1,0 +1,18 @@
+.content
+{
+    justify-content: center;
+    flex: wrap;
+    display:flex ;
+}
+.thank
+{
+    margin-top: 5%;
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+}
+.title
+{
+    margin-top: 10%;
+}
